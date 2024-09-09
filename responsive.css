@@ -1,0 +1,285 @@
+:root {
+    --logoGreen: #00a650;
+    --logoBlue: #2E3092;
+}
+
+@media (max-width: 1500px) {
+
+    .servicesSec2ClipPath1,
+    .servicesSec2ClipPath3 {
+        width: 36vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .aboutUsSec img {
+        display: none;
+    }
+
+    .aboutUsText p {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 1140px) {
+
+    .servicesSec2ClipPath1,
+    .servicesSec2ClipPath3 {
+        width: 37vw;
+    }
+
+    .servicesSec2ClipPath2 {
+        width: 46vw;
+    }
+
+    .contractSecInnerText h2 {
+        font-size: 1.15rem;
+    }
+
+    .contractSecInnerText p {
+        font-size: .75rem;
+        width: 360px;
+    }
+}
+
+@media (max-width: 910px) {
+    .footerInner1 img {
+        height: 90px;
+    }
+
+    .aboutUs p,
+    .contactInfo p {
+        width: 190px;
+        font-size: .8rem;
+        text-align: justify;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 850px) {
+    .quoteP {
+        font-size: .8rem;
+    }
+
+    .quoteBtn {
+        padding: 7px;
+        font-size: .8rem;
+    }
+
+    .contractSecInner {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 840px) {
+
+    .servicesSec2ClipPath1,
+    .servicesSec2ClipPath3 {
+        width: 38vw;
+    }
+
+    .servicesSec2ClipPath2 {
+        width: 47vw;
+    }
+
+    .servicesSec2ClipPath2 p {
+        width: 67%;
+        text-align: justify;
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .servicesSec2 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 5px 10px;
+    }
+
+    .logo {
+        font-size: .8rem;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+        padding: 15px 0;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        backdrop-filter: blur(2px);
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-link a {
+        color: #fff;
+    }
+
+    .icon-menu {
+        display: flex;
+    }
+
+    .slideOneTextHead {
+        font-size: 2rem;
+    }
+
+    .slideOneTextP {
+        font-size: 1rem;
+        width: 370px;
+    }
+
+    .universalBtn {
+        padding: 5px 10px;
+    }
+
+    .section4Inner h2 {
+        font-size: 2rem;
+    }
+
+    .section4Inner p {
+        font-size: .8rem;
+        text-align: justify;
+    }
+
+    .servicesSec {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .servicesSec3 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .quoteP {
+        font-size: .65rem;
+        width: 300px;
+    }
+
+    .quoteBtn {
+        padding: 5px;
+        font-size: .7rem;
+    }
+
+    .section4Inner h2 {
+        font-size: 1rem;
+    }
+
+    .section4Inner p {
+        font-size: .65rem;
+        text-align: justify;
+    }
+
+    .contractSecClipPath {
+        width: 95%;
+    }
+
+    .contractSecInnerText h2 {
+        font-size: .85rem;
+        text-align: center;
+    }
+
+    .contractSecInnerText p {
+        font-size: .65rem;
+        width: 275px;
+        text-align: center;
+    }
+
+    .footerInner1 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footerInner1 img {
+        height: 150px;
+    }
+
+    .aboutUs p,
+    .contactInfo p {
+        width: 280px;
+        font-size: .9rem;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .footerInner2 {
+        flex-direction: column-reverse;
+    }
+
+    .footerInner2 p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .slideOneTextHead {
+        font-size: 1.2rem;
+    }
+
+    .slideOneTextP {
+        font-size: .7rem;
+        width: 280px;
+    }
+
+    .universalBtn {
+        padding: 5px 7px;
+        font-size: 10px;
+    }
+
+    .quoteP {
+        font-size: .65rem;
+        width: 200px;
+        text-align: justify;
+    }
+
+    .quoteBtn {
+        padding: 5px;
+        font-size: .7rem;
+    }
+
+    .servicesInner {
+        width: 290px;
+        height: 140px;
+        padding: 5px 0 0 75px;
+    }
+
+    .servicesP {
+        width: 200px;
+        font-size: .8rem;
+    }
+
+    .servicesSec3Inner {
+        width: 290px;
+    }
+
+    .footerInner1 img {
+        height: 120px;
+    }
+
+    .aboutUs p,
+    .contactInfo p {
+        width: 190px;
+        font-size: .8rem;
+        text-align: justify;
+        margin-top: 5px;
+    }
+}
